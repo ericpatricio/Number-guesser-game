@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Skeleton CSS cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Number Guesser game</title>
+</head>
+
+<body>  
+  <div class="container">
+    <h1>Number guesser game</h1>
+    <img src="./image/guess-image.jpg" alt="guess image">
+    <div id="game">
+      <p class="instruction">Instruction:</p>
+      <p>Guess a number between <span class="min-num"></span> and <span class="max-num"></span></p>      
+      <input type="number" id="guess-input" placeholder="Enter you guess...">
+      <input type="submit" value="Submit" id="guess-btn">     
+      <p class="message"></p>
+    </div>
+  </div>
+
+
+  <!-- JS link -->
+  <script src="app.js"></script>  
+</body>
+
+</html>

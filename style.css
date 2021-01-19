@@ -1,0 +1,32 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&display=swap');
+
+body {
+  font-family: 'Fraunces', serif;
+  background: #ccc;
+}
+
+h1 {
+  color: #375454;
+  font-size: 4rem;
+}
+
+.container {
+  box-shadow: 0px 2px 30px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.instruction {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+#guess-btn {  
+  background-color: #333;
+  color: #fff;
+}
+
